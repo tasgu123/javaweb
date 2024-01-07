@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ResidentInformation:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ResidentInformation_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ResidentInformation/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ResidentInformation" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../../../../../../../CodeTools/apache-tomcat-10.1.15-windows-x64 (3)/apache-tomcat-10.1.15" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="commons-io-2.14.0" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../../../../CodeTools/apache-tomcat-10.1.15-windows-x64 (3)/jakarta.servlet-api-6.0.0-javadoc.jar" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.30" />
+          <element id="library" level="project" name="jakarta.servlet.jsp.jstl-2.0.0" />
+          <element id="library" level="project" name="commons-fileupload2-jakarta-2.0.0-M1" />
+          <element id="library" level="project" name="commons-fileupload2-core-2.0.0-M1" />
+          <element id="library" level="project" name="jakarta.servlet.jsp.jstl-api-2.0.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

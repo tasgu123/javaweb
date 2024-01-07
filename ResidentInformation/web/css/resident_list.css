@@ -1,0 +1,15 @@
+a{
+    text-underline: none;
+    color: black;
+}
+p{
+    font-size:16px;
+}
+h1{
+    text-align: center;
+    color: black;
+    text-underline:none;
+}
+td{
+    text-align: center;
+}
